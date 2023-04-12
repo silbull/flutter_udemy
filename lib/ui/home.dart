@@ -19,7 +19,7 @@ class BizCard extends StatelessWidget {
         title: Text("Bizcard"),
         centerTitle: true,
       ),
-      backgroundColor: Colors.amberAccent,
+      backgroundColor: Color.fromARGB(255, 251, 250, 249),
       body: Container(
         alignment: Alignment.center,
         child: Stack(
@@ -40,7 +40,7 @@ class BizCard extends StatelessWidget {
       height: 200,
       margin: EdgeInsets.all(50.0),
       decoration: BoxDecoration(
-        color: Color.fromARGB(255, 102, 187, 33),
+        color: Color.fromARGB(255, 27, 158, 211),
         borderRadius: BorderRadius.circular(14.5), //角を丸っぽくするかどうか
       ),
       child: Column(
@@ -72,12 +72,12 @@ class BizCard extends StatelessWidget {
       width: 100,
       height: 100,
       decoration: BoxDecoration(
-          color: Colors.white,
+          color: Color.fromARGB(255, 196, 174, 174),
           borderRadius: BorderRadius.all(Radius.circular(50.0)),
           border: Border.all(color: Colors.redAccent, width: 1.2),
-          image: DecorationImage(
+          image: const DecorationImage(
               image: NetworkImage(
-                  "https://i.picsum.photos/id/26/4209/2769.jpg?hmac=vcInmowFvPCyKGtV7Vfh7zWcA_Z0kStrPDW3ppP0iGI"),
+                  "https://www.google.com/url?sa=i&url=https%3A%2F%2Fnaruto-official.com%2F&psig=AOvVaw2Prcko8GcqnRHoP2dxX2v3&ust=1681372142325000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOiJ_Lrto_4CFQAAAAAdAAAAABAE"),
               fit: BoxFit.cover)),
     );
   }
